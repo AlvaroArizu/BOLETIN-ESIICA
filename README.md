@@ -1,6 +1,9 @@
+
 # Proyecto de Boletín de Noticias
 
-Este proyecto incluye un frontend (React) y un backend (Node.js) para manejar un administrador de noticias. El backend se conecta a una base de datos MySQL, y el frontend se comunica con el backend a través de una API.
+Este proyecto fue diseñado para la **Universidad de Morón**, específicamente para el **Decanato de la Escuela Superior de Ingeniería, Informática y Ciencias Agroalimentarias (ESIICA)**.
+
+Incluye un frontend (React) y un backend (Node.js) para manejar un administrador de noticias. El backend se conecta a una base de datos MySQL, y el frontend se comunica con el backend a través de una API.
 
 ## Requisitos previos
 
@@ -22,51 +25,43 @@ El backend está construido en Node.js y utiliza MySQL como base de datos.
 ```bash
 git clone <URL_DEL_REPOSITORIO>
 cd backend
+```
 
+#### 2. Instalar dependencias del backend
 
-## Iniciar el Backend (Node.js)
-
-1. **Navegar a la carpeta del backend**:
-
-'bash'
-cd backend
-'bash'
-
-2. **Instalar dependencias del backend** (solo si no lo has hecho antes):
-
-'bash'
+```bash
 npm install
-'bash'
+```
 
-3. **Iniciar el servidor backend**:
+#### 3. Iniciar el servidor backend
 
-'bash'
+```bash
 node app.js
-'bash'
+```
 
 El servidor backend estará corriendo en `http://localhost:3001`.
 
 ---
 
-## Iniciar el Frontend (React)
+### Frontend (React)
 
 1. **Navegar a la carpeta del frontend**:
 
-'bash'
+```bash
 cd frontend
-'bash'
+```
 
-2. **Instalar dependencias del frontend** (solo si no lo has hecho antes):
+2. **Instalar dependencias del frontend**:
 
-'bash'
+```bash
 npm install
-'bash'
+```
 
 3. **Iniciar la aplicación React**:
 
-'bash'
+```bash
 npm start
-'bash'
+```
 
 El servidor frontend estará corriendo en `http://localhost:3000`.
 
@@ -75,15 +70,38 @@ El servidor frontend estará corriendo en `http://localhost:3000`.
 ## Resumen de comandos
 
 ### Backend:
-'bash'
+
+```bash
 cd backend
 npm install   # Solo la primera vez
 node app.js
-'bash'
+```
 
 ### Frontend:
-'bash'
+
+```bash
 cd frontend
 npm install   # Solo la primera vez
 npm start
-'bash'
+```
+
+---
+
+## Dependencias utilizadas
+
+### Frontend
+
+- **React**: ^18.3.1
+- **Bootstrap**: ^5.3.3
+- **Axios**: ^1.7.7
+- **React Router DOM**: ^6.27.0
+
+### Backend
+
+- **Express**: ^4.21.1
+- **MySQL**: ^2.18.1
+- **Dotenv**: ^16.4.5
+- **Cors**: ^2.8.5
+
+Este proyecto fue desarrollado por **Álvaro Arizu** para el **Decanato de ESIICA de la Universidad de Morón**.
+
